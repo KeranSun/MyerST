@@ -1,0 +1,7 @@
+myerst.egg-info/
+__pycache__/
+*.pyc
+data/raw/
+data/processed/
+outputs/
+*.egg-info/

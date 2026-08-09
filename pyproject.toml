@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myerst"
+version = "0.1.0"
+description = "Topology-constrained game-theoretic attribution (Myerson values) for spatial omics GNNs, with verifiable fidelity"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "MyerST developers"}]
+keywords = ["spatial transcriptomics", "explainable AI", "Myerson value",
+            "graph neural networks", "cell-cell communication"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.0",
+    "torch>=2.0",
+    "scikit-learn>=1.3",
+]
+
+[project.optional-dependencies]
+data = ["anndata>=0.9", "scanpy>=1.9", "h5py>=3.8"]
+plot = ["matplotlib>=3.7"]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/TBD/MyerST"
+Documentation = "https://github.com/TBD/MyerST#readme"
+
+[tool.setuptools.packages.find]
+include = ["myerst*"]
