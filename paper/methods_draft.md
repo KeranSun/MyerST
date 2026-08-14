@@ -38,4 +38,4 @@ DLPFC (12 slices, spatialLIBD/HumanPilot official S3 + GitHub; layer annotations
 
 ## Statistics and reproducibility
 
-All key effects verified across ≥2 independent host seeds (CXCL12: −1.07/−1.02 logits). Multi-seed simulator benchmarks use 3 seeds (mean ± sd reported). 11 unit/regression tests cover graph algorithms, exact-vs-MC Myerson, explainer regression, and simulator ground truth. An audit script (`scripts/audit_results.py`) recomputes every headline number from archived artifacts. Code: github.com/[TBD]; package: `pip install myerst` [TBD].
+All key effects verified across ≥2 independent host seeds (CXCL12: −1.07/−1.02 logits). Multi-seed simulator benchmarks use 3 seeds (mean ± sd reported). 11 unit/regression tests cover graph algorithms, exact-vs-MC Myerson, explainer regression, and simulator ground truth. An audit script (`scripts/audit_results.py`) recomputes every headline number from archived artifacts. Code: github.com/KeranSun/MyerST; package: `pip install myerst` [TBD].

@@ -84,7 +84,7 @@ All datasets are public: DLPFC (spatialLIBD; HumanPilot), Xenium breast Rep1/Rep
 
 ## Code availability
 
-MyerST source code, experiment scripts, and the audit script: github.com/[TBD]; PyPI package `myerst` [TBD]; archival DOI [TBD]. Reviewer access will be provided at submission.
+MyerST source code, experiment scripts, and the audit script: github.com/KeranSun/MyerST; PyPI package `myerst` [TBD]; archival DOI [TBD]. Reviewer access will be provided at submission.
 
 ## References
 

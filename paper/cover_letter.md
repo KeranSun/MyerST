@@ -10,7 +10,7 @@ We submit our manuscript "Topology-constrained attribution reveals verifiable ex
 
 **Why Nature Communications.** The manuscript combines (i) a methodological first (communication games in spatial omics), (ii) a benchmark with practical consequences for how the field validates explanations (four failure modes we identify are, in our reading of the literature, unreported and likely widespread), and (iii) biology: spatial quantification of CXCL12-mediated T-cell exclusion across four datasets and two platforms, decomposition of its sender sources beyond the canonical CAF-only narrative, and a novel testable hypothesis (PTN–SDC4 in T-cell positioning). We believe this combination of method, rigor infrastructure, and biological insight fits the journal's broad readership across computational biology, spatial omics, and tumor immunology.
 
-**Reproducibility.** All data are public; every headline number is recomputable from archived artifacts via a single audit script; the package (pip-installable, MIT) and experiment scripts are available at [GitHub TBD — will be filled upon repository publication]. This manuscript is not under consideration elsewhere, and no part has been published.
+**Reproducibility.** All data are public; every headline number is recomputable from archived artifacts via a single audit script; the package (pip-installable, MIT) and experiment scripts are available at github.com/KeranSun/MyerST. This manuscript is not under consideration elsewhere, and no part has been published.
 
 **Suggested reviewers** (no conflicts): [TBD — 3–5 experts in spatial omics methods / XAI / tumor microenvironment].
 

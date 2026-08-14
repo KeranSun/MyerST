@@ -32,8 +32,8 @@ plot = ["matplotlib>=3.7"]
 dev = ["pytest>=7.0"]
 
 [project.urls]
-Homepage = "https://github.com/TBD/MyerST"
-Documentation = "https://github.com/TBD/MyerST#readme"
+Homepage = "https://github.com/KeranSun/MyerST"
+Documentation = "https://github.com/KeranSun/MyerST#readme"
 
 [tool.setuptools.packages.find]
 include = ["myerst*"]
