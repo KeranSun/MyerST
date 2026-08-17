@@ -19,11 +19,11 @@
 
 | 系统入口 | 传什么 |
 |---|---|
-| Manuscript | manuscript_v1 导出的 PDF 或 Word（正文+图注；LaTeX 亦可，≤30MB）|
+| Manuscript | **outputs/manuscript_v1.docx**（Word 已生成）|
 | Figures | fig1_v3_schematic、fig2_v3、fig3_dlpfc、fig4_v3_he、fig5_multi_cohort 的 PNG（每张单独传，系统里标注 Fig 1–5）|
-| Supplementary Information | 合并 PDF：Extended Data 1–3 + supp_table_s1 + Box 1（标注为 Supplementary Information）|
+| Supplementary Information | **outputs/supplementary_information.docx**（Box1+表S1+ED1-3 已打包）|
 | Reporting Summary | reporting_summary_draft 誊入官方模板后的 Word（模板在投稿系统下载）|
-| Cover letter | cover_letter.md 内容粘贴或导出 PDF |
+| Cover letter | **outputs/cover_letter.docx**（已生成）|
 | Related manuscripts | 无（首次投稿）|
 
 ## Step 5 — Reviewers
