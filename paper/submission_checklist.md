@@ -12,7 +12,7 @@
 
 ## Step 3 — Authors
 - 按 manuscript 顺序逐一添加 4 位作者（姓名/单位/邮箱）
-- Keran Sun、Fei Yin 勾 **Corresponding author**；Keran Sun 填 ORCID 0000-0001-6065-8945（Fei Yin 的 ORCID 收到后补）
+- Keran Sun、Fei Yin 勾 **Corresponding author**；Keran Sun 填 ORCID 0000-0001-6065-8945（Fei Yin ORCID: 0000-0002-1075-0951）
 - 每位作者需要邮箱验证链接（系统会发邮件）
 
 ## Step 4 — Files（上传入口对照）
