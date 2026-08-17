@@ -60,7 +60,7 @@ python scripts/audit_results.py     # 18-point reconciliation vs claimed values
 
 ## Citation
 
-[manuscript under review; citation TBD]
+Archived release DOI: 10.5281/zenodo.21974540. Manuscript under review; citation TBD.
 
 ## License
 

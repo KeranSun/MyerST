@@ -80,7 +80,7 @@ Our benchmark's central lesson is that "importance" is undefined until the pertu
 
 ## Data availability
 
-All datasets are public: DLPFC (spatialLIBD; HumanPilot), Xenium breast Rep1/Rep2 and lung (10x Genomics), Visium breast (10x Genomics). Accession URLs and checksums are listed in the reproducibility repository [DOI TBD].
+All datasets are public: DLPFC (spatialLIBD; HumanPilot), Xenium breast Rep1/Rep2 and lung (10x Genomics), Visium breast (10x Genomics). Accession URLs and checksums are listed in the reproducibility repository doi.org/10.5281/zenodo.21974540.
 
 ## Code availability
 
