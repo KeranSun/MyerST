@@ -1,6 +1,13 @@
 # Topology-constrained attribution reveals verifiable explanations for spatial omics graph neural networks
 
-[Authors TBD]
+Keran Sun<sup>1,2,3,*</sup>, Keqi Jia<sup>4</sup>, Hongru Li<sup>3</sup>, Fei Yin<sup>1,*</sup>
+
+<sup>1</sup>Department of Gastroenterology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, PR China
+<sup>2</sup>Hebei Medical University Clinical Medicine Postdoctoral Research Station, Shijiazhuang, PR China
+<sup>3</sup>Department of Immunology, Key Laboratory of Immune Mechanism and Intervention on Serious Disease in Hebei Province, Hebei Medical University, Shijiazhuang, PR China
+<sup>4</sup>Department of Pathology, Shijiazhuang People's Hospital, Shijiazhuang, PR China
+
+\*Correspondence: Keran Sun (sunkeran@stu.hebmu.edu.cn), Fei Yin (47100214@hebmu.edu.cn)
 
 ---
 
@@ -128,7 +135,8 @@ MyerST source code, experiment scripts, and the audit script: github.com/KeranSu
 38. Sun Y et al. Breast cancer CAF cytokine signature including PTN. *Front Oncol* (2021). PMID: 34395236. [投稿前终核：标题/卷期/DOI 以 PubMed 为准]
 
 ## Author contributions
-[TBD]
+
+K.S. conceived the study, designed the methodology, implemented the software, performed all analyses, produced the figures, and wrote the manuscript. K.J. contributed pathological expertise and validated the breast cancer biological interpretation. H.L. contributed immunology expertise and validated the tumor–immune communication findings. F.Y. supervised the study, secured resources, and revised the manuscript. All authors read and approved the final manuscript.
 
 ## Competing interests
 The authors declare no competing interests.

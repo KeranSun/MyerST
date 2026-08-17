@@ -9,7 +9,7 @@ description = "Topology-constrained game-theoretic attribution (Myerson values) 
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
-authors = [{name = "MyerST developers"}]
+authors = [{name = "Keran Sun", email = "sunkeran@stu.hebmu.edu.cn"}]
 keywords = ["spatial transcriptomics", "explainable AI", "Myerson value",
             "graph neural networks", "cell-cell communication"]
 classifiers = [

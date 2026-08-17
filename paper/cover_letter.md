@@ -17,4 +17,6 @@ We submit our manuscript "Topology-constrained attribution reveals verifiable ex
 **Excluded reviewers**: [TBD, if any].
 
 Sincerely,
-[Corresponding author]
+Keran Sun, on behalf of all authors
+Department of Gastroenterology, The Fourth Hospital of Hebei Medical University
+sunkeran@stu.hebmu.edu.cn
