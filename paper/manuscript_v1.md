@@ -7,7 +7,7 @@ Keran Sun<sup>1,2,3,*</sup>, Keqi Jia<sup>4</sup>, Hongru Li<sup>3</sup>, Fei Yi
 <sup>3</sup>Department of Immunology, Key Laboratory of Immune Mechanism and Intervention on Serious Disease in Hebei Province, Hebei Medical University, Shijiazhuang, PR China
 <sup>4</sup>Department of Pathology, Shijiazhuang People's Hospital, Shijiazhuang, PR China
 
-\*Correspondence: Keran Sun (sunkeran@stu.hebmu.edu.cn), Fei Yin (47100214@hebmu.edu.cn)
+\*Correspondence: Keran Sun (sunkeran@stu.hebmu.edu.cn; ORCID: 0000-0001-6065-8945), Fei Yin (47100214@hebmu.edu.cn)
 
 ---
 
