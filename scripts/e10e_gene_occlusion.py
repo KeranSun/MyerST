@@ -29,6 +29,7 @@ K_GRAPH = 8
 
 
 def main():
+    PW_DETAIL = {}
     t0 = time.perf_counter()
     print("=" * 72)
     print("E10e: gene-level ligand occlusion (LR-restricted host)")
@@ -121,7 +122,7 @@ def main():
         return float(gcn(xz.unsqueeze(0), adj_sub)[0, zidx[int(j)], 1].item())
 
     print(f"{'pathway':<18} {'n_recv':>7} {'psi_gene':>9} {'null_mean':>10} {'t(paired)':>9}")
-    saved = {}
+    saved = {"pw_detail": PW_DETAIL}
     for lig, rec in LR_PAIRS:
         if lig not in gidx or rec not in gidx:
             continue
@@ -180,11 +181,18 @@ def main():
 
     import os
     os.makedirs("data/processed", exist_ok=True)
+    extra = {}
+    for lig, dd in saved.items():
+        if not isinstance(dd, dict) or "obs" not in dd:
+            continue
+        extra[f"pw_{lig}_obs"] = dd["obs"]
+        extra[f"pw_{lig}_null"] = dd["null"]
+        extra[f"pw_{lig}_use"] = dd["use"]
     np.savez("data/processed/e10e_ccxcl12.npz",
              use=saved["CXCL12"]["use"], obs=saved["CXCL12"]["obs"],
              null=saved["CXCL12"]["null"], labs=labs, coords=coords,
              is_t=is_t, t_act=t_act, genes=genes, d_near=d_near,
-             x_cxcl12=Xn_full[:, gidx_full["CXCL12"]])
+             x_cxcl12=Xn_full[:, gidx_full["CXCL12"]], **extra)
     print(f"\nsaved data/processed/e10e_ccxcl12.npz; total {(time.perf_counter()-t0)/60:.1f} min")
 
 
